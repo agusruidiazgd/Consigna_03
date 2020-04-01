@@ -1,0 +1,164 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: slateblue;
+}
+
+.card{
+    box-shadow: 0px 11px 24px 0px rgba(0,0,0,0.75);
+    border-radius: 5px 5px 5px 5px ;
+    padding: 30px;
+    background-color: white;
+}
+
+.header1{
+    font-family: 'Noto Sans', sans-serif;
+    color: slateblue;
+    display: flex;
+    align-items: center;
+    height: 66px;
+    margin-bottom: 10px;
+}
+
+.header1 h1{
+    margin-right:100px;
+    text-shadow: 1px 1px 1px #696;
+}
+
+.header1 p{
+    font-family: 'Roboto', sans-serif;
+    color:grey;
+    font-weight: lighter;
+    font-size: 13;
+    display:inline;
+    margin-right: 25px;
+}
+
+.check:hover{
+    color:black;
+    font-weight: bold ;
+}
+
+.sections{
+    display:flex;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+.sections h1{
+    font-size: 16;
+    text-align: center;
+    color: rgb(73, 71, 71);
+}
+
+.section1{
+    padding: 15px;
+    background-color:rgb(248, 244, 244);
+    border: rgb(231, 237, 243) solid 0.5px;
+    border-radius: 3px;
+}
+
+.sub-section1{
+    display: flex;
+    width:120px;
+}
+
+.input1{
+    width: 115px;
+    margin-right: 20px;
+}
+
+.input2{
+   width:250px;
+}
+
+.input2 input{
+   width:250px;
+}
+
+.ciudad{
+    font-family: 'Roboto', sans-serif;
+}
+
+.sub-section2{
+    display: flex;
+}
+
+label{
+    color:grey;
+    font-size: 13;
+    margin-left:15px;
+}
+
+
+
+.section2{
+    padding: 15px 15px 25px 15px;
+    background-color:rgb(248, 244, 244);
+    border: rgb(231, 237, 243) solid 0.5px;
+    border-radius: 3px;
+    margin-left: 30px;
+    height: 205px;
+}
+
+.section2 p{
+    color:grey;
+    font-size: 13;
+    margin-left:15px;
+    margin-top: 1px;
+    margin-bottom: 0px;
+}
+
+.botones{
+    display: flex;
+}
+
+.btn{
+    background-color:slateblue;
+    border:none;
+    border-radius: 2%;
+    color: white;
+    padding: 15px 10px;
+    text-decoration: none;
+    margin: 4px 5px;
+    cursor: pointer;
+    width:109px;
+    text-align: center;
+}
+
+.price{
+    font-size: 29;
+}
+
+.btn:hover{
+    background-color:rgb(218, 197, 238);
+    color:slateblue;
+}
+
+.check{
+    color:grey;
+    font-size: 10;
+    margin-left:3px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.check label{
+    font-size: 10;
+}
+
+.btn-confirm{
+    background-color:slateblue;
+    border:none;
+    border-radius: 2%;
+    padding: 16px 60px;
+    cursor: pointer;
+    width:150px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-confirm p{
+    color:white;
+    font-size:15;
+    font-weight: bold;
+}
